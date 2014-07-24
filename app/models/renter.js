@@ -26,14 +26,17 @@ Renter.prototype.work = function(){
 };
 
 Renter.prototype.payRent = function(amount){
-  if(this.isEvicted){return;}
+  if(this.isEvicted){return 0;}
 
   amount = parseInt(amount);
   this._isEvicted = this._cash < amount;
 
   if(!this._isEvicted){
     this._cash -= amount;
+    return amount;
   }
+
+  return 0;
 };
 
 Renter.prototype.party = function(){
