@@ -1,7 +1,7 @@
 {
   "name": "property-manager",
   "version": "0.0.0",
-  "description": "Simulated Property Manager wity Partying",
+  "description": "Simulated Property Manager with Partying",
   "main": "app/index.js",
   "bin": {"coveralls" : "./node_modules/coveralls/bin/coveralls.js"},
   "scripts": {
