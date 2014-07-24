@@ -1,0 +1,34 @@
+{
+  "name": "property-manager",
+  "version": "0.0.0",
+  "description": "Simulated Property Manager wity Partying",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha test --recursive -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nss-cohort-2014-06-07/property-manager"
+  },
+  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nss-cohort-2014-06-07/property-manager/issues"
+  },
+  "homepage": "https://github.com/nss-cohort-2014-06-07/property-manager",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "lodash": "^2.4.1",
+    "mongodb": "^1.4.7",
+    "request": "^2.39.0",
+    "sync-prompt": "^0.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^0.4.0",
+    "mocha": "^1.21.0"
+  }
+}
