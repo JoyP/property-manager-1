@@ -1,4 +1,4 @@
-# Property Manager
+## Property Manager
 
 ### Badges
 [![Build Status](https://travis-ci.org/nss-cohort-2014-06-07/property-manager.svg?branch=master)](https://travis-ci.org/nss-cohort-2014-06-07/property-manager)
