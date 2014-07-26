@@ -9,9 +9,9 @@ Property Manager is a Node.js application to be used at an apartment complex. It
 ### Models
 ```
 Room
--name
--length
--width
+name
+length
+width
 #area
 #cost
 #isBedroom
@@ -19,12 +19,12 @@ Room
 
 ```
 Renter
--name
--age
--gender
--profession
--_isEvicted
--_cash
+name
+age
+gender
+profession
+_isEvicted
+_cash
 #work
 #payRent
 #party
@@ -32,6 +32,24 @@ Renter
 
 ```
 Apartment
+unit
+renters
+rooms
+#area
+#cost
+#revenue
+#isAvailable
+#purge
+#collectRent
+#save
+.collection [-]
+.find
+.findById
+.deleteById
+.area
+.cost
+.revenue
+.tenents
 ```
 
 ### Features
